@@ -1,9 +1,9 @@
-package org.thesatyendrakumar.bridge;
+package org.thesatyendrakumar.structural_patterns.bridge;
 
-public class SavingsAccount implements Account {
+public class InvestmentAccount implements Account {
     private String accountType;
 
-    public SavingsAccount(String accountType) {
+    public InvestmentAccount(String accountType) {
         this.accountType = accountType;
     }
 

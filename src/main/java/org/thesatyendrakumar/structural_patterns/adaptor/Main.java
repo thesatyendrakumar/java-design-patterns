@@ -1,4 +1,4 @@
-package org.thesatyendrakumar.adaptor;
+package org.thesatyendrakumar.structural_patterns.adaptor;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package org.thesatyendrakumar.adaptor;
+package org.thesatyendrakumar.structural_patterns.adaptor;
 
 import java.time.LocalDateTime;
 

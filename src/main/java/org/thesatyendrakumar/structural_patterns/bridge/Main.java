@@ -1,4 +1,4 @@
-package org.thesatyendrakumar.bridge;
+package org.thesatyendrakumar.structural_patterns.bridge;
 
 public class Main {
 
@@ -11,5 +11,13 @@ public class Main {
 
         savingsManager.manageAccount("Jane Doe");
         checkingManager.manageAccount("John Smith");
+
+// enhancement of the system
+        Account investment = new InvestmentAccount("Investment Account");
+        AccountManager investmentManager = new CustomerAccountManager(investment);
+
+        investmentManager.manageAccount("Alice Johnson");
+
+
     }
 }

@@ -1,4 +1,4 @@
-package org.thesatyendrakumar.bridge;
+package org.thesatyendrakumar.structural_patterns.bridge;
 
 public class CustomerAccountManager extends AccountManager {
 
